@@ -11,8 +11,7 @@ import org.junit.Test;
 
 public class JogadorFutebolAmericanoTest {
 	private JogadorFutebolAmericano JogadorFutebolAmericano;
-	
-        @Before
+	@Before
 	public void setUp() throws Exception {
 		this.JogadorFutebolAmericano = new JogadorFutebolAmericano("Abc");
 	}
